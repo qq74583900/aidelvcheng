@@ -1,0 +1,156 @@
+
+
+/*======================================================zhuce===============================================*/
+#register{width:100%;
+			height:720px;
+			background:url(../../images/userbg.jpg) no-repeat;
+			background-position: center;
+			}
+#register .ban{width:1110px;
+			  height:720px;
+			  margin:0 auto;
+			  }			
+#register .zhuce{width:380px;
+				height:500px;
+				background:url(../../images/regbg.png) no-repeat;
+				background-position: center; 
+				float:right;
+				margin-top:100px;
+}
+#register .zhuce .zhuce-c{width:302px;
+						  height:500px;
+						  margin:0 auto;
+						  }
+#register .zhuce .zhuce-c .fangshi{width:300px;
+									height:41px;
+									margin:20px 0;
+									}
+#register .zhuce .zhuce-c .fangshi ul li{
+										font-size: 16px;
+										line-height: 39px;
+										cursor: pointer;
+										}
+#register .zhuce .zhuce-c .fangshi ul li:nth-child(1){width:147px;
+													  height:41px;
+													  float:left;
+													  color:#fff;
+													  background:url(../../images/mob.png) no-repeat 13px #636b9e;
+													  text-indent: 39px;
+													  
+													  }
+#register .zhuce .zhuce-c .fangshi ul li:nth-child(2){width:147px;
+													  height:39px;
+													  float:right;
+													  border:1px solid #636b9e;
+													  color:#636b9e;
+													  background:url(../../images/email.png) no-repeat 13px;
+													  text-indent: 39px;
+													  }
+#register .zhuce .zhuce-c .biaodan ul{width:300px;
+									  height:300px;
+									  margin:0 auto;
+									  }												  
+#register .zhuce .zhuce-c .biaodan ul li{width:300px;
+										 height:41px;
+										 border:1px solid #c8c7cd;
+										 background:#f9f8fe;
+										 }
+#register .zhuce .zhuce-c .biaodan ul li{
+										border-top:0;
+										}
+#register .zhuce .zhuce-c .biaodan ul li:nth-child(1){
+														border-top:1px solid #c8c7cd;
+														}													  
+#register .zhuce .zhuce-c .biaodan ul li h3{
+											float:left;
+											width:80px;
+											color:#999;
+											font-size:14px;
+											font-weight: normal;
+											text-align: center;
+											line-height: 25px;
+											border-right:1px solid #c8c7cd;
+											height:25px;
+											margin-top:7px;
+											}													  
+#register .zhuce .zhuce-c .biaodan ul li p{float:left;
+											width:200px;
+											}												  
+													  
+#register .zhuce .zhuce-c .biaodan ul li p input{
+												outline:none;
+												font-size: 14px;
+												color:#333;
+												width:200px;
+												height:25px;
+												line-height: 26px;
+												border:0;
+												padding-left:10px;
+												background:transparent;
+												margin-top:8px;
+												float:left;
+												}
+#register .zhuce .zhuce-c .biaodan ul li p span{
+	display: block;
+	float:left;
+}												
+#register .zhuce .zhuce-c .biaodan ul .yanzheng{position: relative;}																									  
+#register .zhuce .zhuce-c .biaodan ul .yanzheng h2{float:left;
+													width:80px;
+													color:#999;
+													font-size:14px;
+													font-weight: normal;
+													text-align: center;
+													line-height: 25px;
+													border-right:1px solid #c8c7cd;
+													height:25px;
+													margin-top:7px;}													  
+#register .zhuce .zhuce-c .biaodan ul .yanzheng h3{width:95px;
+													height:27px;
+													line-height: 27px;
+													border:none;
+													
+													}													  
+#register .zhuce .zhuce-c .biaodan ul .yanzheng h3 input{background:transparent;}													  
+													  
+#register .zhuce .zhuce-c .biaodan ul .yanzheng h4{width:100px;
+												   position: absolute;
+												   left:185px;
+												   top:10px;}													  
+#register .zhuce .zhuce-c .biaodan ul .yanzheng h5{font-weight: normal;
+												   color:#999;
+												   position: absolute;
+												   right:8px;
+												   top:12px;
+												   }
+#register .zhuce .zhuce-c .biaodan ul .yanzheng h4 span{cursor: pointer;}												   													  
+#register .zhuce .zhuce-c .biaodan .shouce{text-align: center;
+								  padding:20px 0 20px;
+								  line-height: 13px;
+								  }
+#register .zhuce .zhuce-c .biaodan .shouce input{display: block;
+										float:left;
+										margin-left:44px;
+										}								  
+#register .zhuce .zhuce-c .biaodan .shouce a{display:block;
+									float:right;
+									margin-right:36px;
+									}
+
+#register .zhuce .zhuce-c .biaodan .shouce a:hover{
+										  color:#A31919;
+										  }
+#register .zhuce .zhuce-c .biaodan .tijiao{background:#636b9e;
+										   width:226px;
+										   height:37px;
+										   line-height: 37px;
+										   text-align: center;
+										   font-size: 14px;
+										   color:#fff;
+										   margin:20px 0 0 38px;
+										   cursor: pointer;
+										   }
+#register .zhuce .zhuce-c .biaodan .tijiao input{cursor: pointer;
+												 border:none;
+												 background:#636b9e;
+												 color:#fff;}

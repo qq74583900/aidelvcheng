@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/gonggong.css" rel="stylesheet" type="text/css">
+		<link href="css/detail.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+		<script type="text/javascript" src="js/zzsc1.js"></script>
+	</head>
+	<body>
+		<!---------------------------------------------nav--------------------------------------------->
+		<nav>
+			<div class="w">
+				<div class="l">
+					<ul>
+						<li><a href="demglu.html">登录</a><span>|</span><a href="zhuce.html">注册</a></li>
+						<li>
+							<a href="#">合作登录:</a>
+							<a href="#"><img src="../images/qq.jpg"/></a>
+							<a href="#"><img src="../images/sinawb.jpg"/></a>
+							<a href="#"><img src="../images/alipay.jpg"/></a> 
+						</li>						
+					</ul>
+				</div>
+				<div class="r">
+					<ul>
+						<li><img src="../images/cart.jpg"/><a href="shoppingcar.html">购物车</a>[<span>0</span>]<b>|</b> </li>
+						<li  class="a-a">
+							<a href="demglu.html">我的账户</a>
+							<ul  class="app">
+								<li><a href="#">收藏夹</a></li>
+								<li><a href="#">订单管理</a></li>
+								<li><a href="#">求婚专属网</a></li>
+							</ul>
+						</li>
+						<li><img src="../images/tel.jpg"/><a href="#">400-8030-520</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!---------------------------------------header--------------------------------------------->
+		<header>
+			<div class="w">
+				<div class="logo">
+					<a href="#"><img src="../images/logo.gif"/></a>
+					<a href="#"><img src="../images/logo_line.jpg" /></a>
+					<a href="#"><img src="../images/logo_txt.gif" /></a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="../index.html"><img src="../images/nav_1.jpg" />首页</a><img src="../images/nav_2.jpg"/></li>
+						<li class="ej" id="ej">
+							<a href="#">求婚钻戒</a><img src="../images/nav_2.jpg"/>							
+						</li>
+						<li><a href="#">真爱服务</a><img src="../images/nav_2.jpg"/></li>
+						<li><a href="#">乐维斯式爱情</a><img src="../images/nav_2.jpg"/></li>
+						<li><a href="#">乐维斯世界</a><img src="../images/nav_2.jpg"/></li>
+					</ul>
+					<img class="img1" src="../images/1495461068593561552.gif" />
+				</div>					
+			</div>
+			<div class="erji" id="erji">
+				<div class="erjiw">
+					<div>
+						<h3><a href="#">求婚戒指</a></h3>
+						<p><a href="#">查看全部</a></p>
+						<a href="#"><img src="../images/navjz.png"/></a>
+					</div>
+					<ul>
+						<li><a href="#">高贵淑女型</a></li>
+						<li><a href="list.html">时尚个性型</a></li>
+						<li><a href="#">简约大方型</a></li>
+						<li><a href="#">调皮可爱型</a></li>
+						<li><a href="#">求婚&nbsp;男戒</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<dl id="weizhi">
+			<dd>
+				<div class="weizhi-l">
+					您现在的位置：
+					<a href="../index.html">首页</a>
+					<code>〉</code>
+					<a href="#">乐定制</a>
+					<code>〉</code>
+					<a href="list.html">时尚个性型</a>
+					<code>〉</code>
+					<a href="#">爱·唯一</a>
+				</div>
+				<div class="remen">
+					<div class="hot">
+						<strong class="s1">热门：</strong>
+						<a href="#">命中注定</a>
+						<a href="#">情有独钟</a>
+						<a href="#">爱的誓言</a>
+					</div>
+					<div class="search">
+						<from>
+							<input type="text" id="keyword" class="st" name="keyword"/>
+							<input type="submit" class="sb" name="submit" value=""/>
+						</from>
+					</div>
+				</div>
+			</dd>
+		</dl>
+		<section id="weiyi">
+			<dl class="picture">
+				<dd class="stylePic">
+					<ul>
+						<li class="big">
+							<div class="smallimg">
+								<div class="move">
+									<img src="../images/detail-images/btn_prev.png"/>
+								</div>
+								<div class="img-move">
+									<ul>
+										
+									</ul>
+								</div>
+								<div class="move1">
+									<img src="../images/detail-images/btn_next.png" />
+								</div>
+							</div>
+							<div class="loadingImg">
+								<div class="jqzoom">
+									<img src="../images/detail-images/1016578_G_1445062701367.jpg" />
+								</div>
+								<div class="good-video">
+									<video id="zsvideo" controls="controls" width="400" height="400">
+										<source type="video/mp4" src="https://cloud.video.taobao.com/play/u/1975054354/p/1/e/6/t/1/50002686165.mp4"/>
+									</video>
+								</div>
+								<div class="play-video">
+									<img src="../images/detail-images/icon-video.png" />
+								</div>
+								<div class="close-video">
+									<img src="../images/detail-images/close.png" />
+								</div>
+							</div>
+						</li>
+					</ul>
+				</dd>
+				<dd>
+					<ol>
+						<li>
+							<label id="member" class="pointer" onclick="collect(goodsID)">收藏商品</label>
+						</li>
+						<li class="paroshare">
+							<span class="sharrtxt">分享</span>
+							<div class="jia">
+								<a href="#" class="jbq"></a>
+								<a href="#" class="jbt"></a>
+								<a href="#" class="jqq"></a>
+								<a href="#" class="jbr"></a>
+								<a href="#" class="jbk"></a>
+							</div>
+						</li>
+						<div class="clear"></div>
+					</ol>
+				</dd>
+			</dl>
+			<dl class="line">
+				<dd></dd>
+			</dl>
+			<dl class="four">
+				<dd class="dd_tit">
+					<h1>
+						<span>18K白金  30分  爱·唯一</span>
+					</h1>
+					<ul>
+						<li>钻戒价格：</li>
+						<li>
+							<span class="yuanjia">
+								¥
+								<font>11099</font>
+							</span>
+						</li>						
+					</ul>
+				</dd>
+				<div class="clear"></div>
+				<dd>
+					<div class="blank">
+						<ol id="edutitles">
+							<li>
+								钻石总重(ct)：
+								<label>30分</label>
+								<span></span>
+							</li>
+							<li>
+								钻石净度(clarity)：
+								<label>VS1</label>
+								<span></span>
+							</li>
+							<li>
+								钻石颜色(color)：
+								<label>E</label>
+								<span></span>
+							</li>
+							<li>
+								钻石切工(cut)：
+								<label>EX</label>
+								<span></span>
+							</li>
+							<li class="bottom"></li>
+						</ol>
+						<div class="clear"></div>
+					</div>
+					<form>
+						<ul class="quality">
+							<li class="material">
+								<label class="f">材质:</label>
+								<span class="on">18K白金</span>
+								<span class="on1">PT950</span>
+							</li>
+							<li>
+								<label class="f_1">钻石：</label>
+								<span>30分</span>
+								<span>35分</span>
+								<span>40分</span>
+								<span>45分</span>
+								<span>50分</span>
+								<span>55分</span>
+								<span>60分</span>
+								<span>70分</span>
+								<span>80分</span>
+								<span>90分</span>
+								<span>1克拉</span>
+								<span>更多</span>
+							</li>
+							<li class="spec_info">
+								参考尺寸：
+								<select>
+									<option>7</option>
+									<option>8</option>
+									<option>9</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+									<option>13</option>
+									<option>14</option>
+									<option>15</option>
+									<option>16</option>
+								</select>
+								<a href="#">手寸对照表</a>
+								|
+								<a href="#">购买流程</a>
+								|
+								<a href="#">联系我们</a>
+							</li>
+							<li class="proexstyleCustom">
+								<ul>
+									<li class="tit">刻字：</li>
+									<li class="li">输入刻字内容 >> 可刻5个中文或10个英文字符！</li>
+								</ul>
+							</li>
+							<li class="btn">
+								<img src="../images/detail-images/buynow.png" />
+								<img src="../images/detail-images/addtocart.png" />
+							</li>
+							<li class="yuji">
+								<div>
+									预计发货时间：
+									<font id="arrive">2017-07-14</font>
+								</div>
+							</li>
+						</ul>
+					</form>
+					<ul class="other">
+						<li class="other">
+							<ul class="num">
+								<li class="border">
+									最近售出：
+									<font>569</font>
+								</li>
+								<li class="border">
+									用户评论：
+									<font>61</font>
+								</li>
+								<li >
+									收藏人气：
+									<label>752</label>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<p>
+						<a href="#">乐维斯晒单赢抱枕活动来了！轻松分享幸福，就能收获一大波祝福和超有爱的抱枕，亲，你还在等什么？</a>
+					</p>
+					<p class="ggad">
+						
+					</p>
+				</dd>
+			</dl>
+			<dl class="right4c">
+				<ul>
+					<li class="jingzhong">
+						<ul>
+							<li class="content">
+								<p>
+									<strong>重量Carat</strong>
+								</p>
+								<p>
+									　　钻石的重量是4c中最容易度量的特征，与其它宝石一样，钻石的重量也用克拉来计量。一克拉等于0.2g，每一克拉分为一百分（或相当于200毫克），因此一颗25分的钻石重0.25克拉。同等品质的钻石，重量越大越珍贵，一颗某级品质的2克拉钻石常常要比2颗同样品质的1克拉钻石要来得昂贵。
+								</p>
+								<p>
+									<img src="../images/detail-images/r_pic5.gif" />
+								</p>
+							</li>
+							<li class="more">
+								<a href="#">
+									更多钻石知识
+									<span class="txt">>></span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="jingdu">
+						<ul>
+							<li class="content">
+								<p>
+									<strong>净度Clarity</strong>
+								</p>
+								<p>
+									　　当注视钻石时， 有可能会看见“瑕疵”或“内含物”——通常随着晶体组成或扭曲时而形成。净度代表钻石的透明程度，主要是从它的体积、位置和内含物的数量与瑕疵来评级。宝石学家在检视钻石时，会使用 10 倍放大镜来鉴定钻石净度的 11 个等级。
+								</p>
+								<p>
+									<img src="../images/detail-images/r_pic.gif" />
+								</p>
+							</li>
+							<li class="more">
+								<a href="#">
+									更多钻石知识
+									<span class="txt">>></span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="color">
+						<ul>
+							<li class="content">
+								<p>
+									<strong>颜色Color</strong>
+								</p>
+								<p>
+									D级：完全无色。最高色级，极其稀有。
+									<br/>									
+									E级：无色。仅仅只有宝石鉴定专家能够检测到微量颜色。是非常稀有的钻石。　　
+									<br/>
+									F级：无色。少量的颜色只有珠宝专家可检测到，但是仍被认为是无色级。属于高品质钻石。
+									<br/>
+									G—H级：接近无色。当和较高色级钻石比较时，有轻微的颜色。但是这种色级的钻石仍然拥有很高的价值。
+									<br/>
+									I—J级：接近无色。可检测到轻微的颜色。价值较高。 
+									<br/>
+								</p>
+								<p>
+									<img src="../images/detail-images/r_pic6.gif" />
+								</p>
+							</li>
+							<li class="more">
+								<a href="#">
+									更多钻石知识
+									<span class="txt">>></span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="cut">
+						<ul>
+							<li class="content">
+								<p>
+									<strong>切工Cut</strong>
+								</p>
+								<p>
+									切工是指它的切磨比率的精确性和修饰完工后的完美性。好的切工应该尽可能的体现钻石的亮度和火彩，并且尽量保持原石重量。
+									<br/>									
+									GIA把钻石切工分为5个级别:　　
+									<br/>
+									Excellent(完美)
+									<br/>
+									Verygood(非常好)
+									<br/>
+									Good(好) 
+									<br/>
+									Fair(一般)
+									<br/>
+									Poor(差)
+									<br/>
+									<br/>
+									中国国检分为: 
+									<br/>
+									EX(优)　VG(很好)　G(好)
+									<br/>
+								</p>
+								<p>
+									<img src="../images/detail-images/r_pic6.gif" />
+								</p>
+							</li>
+							<li class="more">
+								<a href="#">
+									更多钻石知识
+									<span class="txt">>></span>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</dl>
+			<div class="auto">
+				<div class="tit">其他钻石参数选择：</div>
+			</div>
+			<div id="proinfo" class="proinfo">
+				<dt class="tab">
+					<ul>
+						<li>
+							<a id="xuanxiang" href="#" class="a1">商品信息</a>
+							<a id="xuanxiang" href="#product_attribute" class="a2">产品参数</a>
+							<a id="xuanxiang" href="#" class="a3">产品服务</a>
+							<a id="xuanxiang" href="#" class="a4">付款方式</a>
+						</li>
+					</ul>
+				</dt>
+				<dd>
+					<div class="toggle">
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<dl id="product_service neirong" class="pad hide" style="display: none;">
+							<p>
+								<img src="../images/detail-images/pro_service_1.jpg" />
+							</p>
+							<p>
+								<strong>质量保证条款：</strong>
+							</p>
+							<p>    乐维斯郑重承诺   </p>
+							<p>    第一：乐维斯每一枚30分以上主钻钻戒均配备国际GIA证书与国家权威机构的检测证书（双证书）；</p>
+							<p>    钻戒到您手中后，您可以通过证书的唯一编号到GIA官网或国家机构检测官网查询该枚钻戒的证书资料是否吻合。</p>
+							<p>    第二：您可以去所在地国家检测机构复检，如果查出是假冒产品，乐维斯承诺假一罚十。</p>
+							<p>    第三：如果您订制的钻戒有任何质量问题，可在15天内无条件退换。</p>
+							<p>    第四：乐维斯为你提供免费刻字、开通求婚专属页、以小换大，终身免费保养清洗，终身免费改尺寸等服务。</p>
+							<p>    我们的退换货承诺使您有充足的时间考虑，确保您做出正确的选择，真正做到无风险购物。</p>	
+						</dl>
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						
+						<dl id="product_payment neirong" class="pad hide" style="display: none;">
+							<p></p>
+							<p>
+								<img src="../images/detail-images/zf2013101810.jpg" style="width:700px;height:266px"/>
+							</p>
+							<div class="pay">在线支付</div>
+							<p>  我们为您提供支付宝担宝支付、银行卡在线支付（几乎涵盖所有大中型银行的银行卡），您也可不必注册支付宝、直接通过您的银行卡网银在线支付。</p>
+							<p>  支付宝支付：</p>
+							<p>
+								  1．你必须注册成为支付宝的用户，并保持支付宝账户有足够的现金（可以通过网银充值实现）；
+								<br />
+								  2、支付宝支持全国14家主流银行网银，您可以自由选择任一银行的网银进行支付；
+								<br />
+								  3、使用支付宝支付，对消费者来说，目前都不需要任何的手续费。（非淘宝交易，每月超过5000元后，要收取小额的手续费）。
+							</p>
+							<div class="pay">线下汇款</div>
+							<p>
+								  	1、适用于全国
+								<br />
+									2、银行转账的到款时间：一般自您办理手续之日起2-5天。
+								<br />
+								 	3、款到乐维斯后，我们会立刻为您安排下单。
+								<br />
+									4、您可以在任何一家银行向以下账户汇款或转账,汇款时请务必在电汇单的用途栏内注明订单号。
+								<br />
+							</p>
+							<p></p>
+							<p>  向以下银行账户汇款或转账：</p>
+							<p>
+								  收 款 方：
+								  <strong>深圳市乐维斯钻戒有限公司</strong>
+							</p>	
+							<p>
+								  银行账户：
+								  <strong>7770 6004 1588</strong>
+							</p>	
+							<p>
+								  开 户 行：
+								  <strong>中国银行股份有限公司深圳中心区支行</strong>
+							</p>	
+							<p></p>	
+							<p>
+								<strong>
+									  乐维斯提醒：
+									  <br />
+								</strong>
+								  1、为了确保您的资金安全，获得更优质的服务，请您务必在汇款前和我们联系，联系方式可以通过我们的在线客服，或者400-8030-520服务电话进行确认；
+								  <br />
+								  2、在收到您的货款并与您核实之前，乐维斯的所有货品恕不保留，敬请谅解。
+							</p>
+							<div class="pay">邮局汇款</div>
+							<p>
+								  1、邮政汇款适用于全国邮政范围所能覆盖的国内地区
+								  <br />
+								  2、邮局汇款的到款时间：一般自您办理邮局汇款手续之日起2-5天。
+								  <br />
+  									3、款到乐维斯后，我们会立刻为您安排下单。
+								  <br />
+  									4、请您在汇款人或收款人处注明您的订单号（网上定货结束后会自动显示）。
+								  <br />
+							</p>	
+							<p></p>	
+							<p>
+								<strong> 
+									 乐维斯提醒：
+									 <br />
+								</strong>
+								  1、为了确保您的资金安全，获得更优质的服务，请您务必在汇款前和我们联系，联系方式可以通过我们的在线客服，或者400-8030-520服务电话进行确认；在收到您的货款并与您核实之前，乐维斯的所有货品恕不保留,敬请谅解。
+							</p>	
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							
+						</dl>
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<dl id="product_detail neirong" class="proDetail" style="display: block;">
+							<dd>
+								<h2>
+									<span>LG2008</span>
+									 -爱·唯一
+								</h2>
+								<p>此商品的价格，已包含空托与主钻。如您需要选择镶嵌其它价位、4C参数不同的裸钻，可直接点击“其它” 进行自由搭配，或是联系在线客服获得更多帮助。</p>
+							</dd>
+							<dd class="pSubTit">
+								<h3>主钻信息</h3>
+							</dd>
+							<dd>
+								<ul>
+									<li class="f_l">主钻重量： 30分</li>
+									<li class="f_r">主钻数量： 1</li>
+								</ul>
+							</dd>
+							<dd class="pSubTit">
+								<h3>副钻信息</h3>
+							</dd>
+							<dd>
+								<ul>
+									<li class="f_l">副钻数量： 14</li>
+								</ul>
+							</dd>
+							<dd class="goods_desc">
+								<p>
+									<img src="../images/detail-images/T2f7K6Xv0aXXXXXXXX_!!1975054354.gif" />
+									<img src="../images/detail-images/TB2MaGKbFXXXXX1XpXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/TB2F99KbFXXXXcoXXXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/TB2LgyNbFXXXXaEXXXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/TB23xuNbFXXXXbcXpXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/TB2315ObFXXXXX_XpXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/TB2byGMbFXXXXa5XXXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/TB2JgeObFXXXXXCXXXXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2HPe8XqNXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2z2u7XEJXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2S3y6XyhaXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2yzOoXphbXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2pvK7XEBXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2lyW7XCNXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2SX57Xr4aXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2XSO6Xt8aXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2y0G8XvtXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2M757XBhXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2_KG8XuNXXXXXXXXX_!!1975054354.jpg" />
+									<img src="../images/detail-images/T2bbi7XpNaXXXXXXXX_!!1975054354.jpg" />
+								</p>
+							</dd>
+						</dl>
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<!------------------------------------------------------------------->
+						<dl id="product_attribute neirong" class="proDetail hide" style="display: none;">
+							<dd class="pSubTit">
+								<h3>主钻信息</h3>
+							</dd>
+							<dd>
+								<ul>
+									<li class="f_l">主钻重量： 30分</li>
+									<li class="f_r">主钻数量： 1</li>
+								</ul>
+							</dd>
+							<dd class="pSubTit">
+								<h3>副钻信息</h3>
+							</dd>
+							<dd>
+								<ul>
+									<li class="f_l">副钻数量： 14</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+					<dl class="comment proComment">
+						<dt>
+							<a name="comment"></a>
+							<ul id="goodsCommentTab">
+								<li>
+									<a id="commentTab" class="tab_on" rel="0">全部</a>
+									<a id="commentTab" class="tab_off" rel="3">已购评论</a>
+									<a id="commentTab" class="tab_off" rel="2">买前咨询</a>
+									<a id="commentTab" class="tab_off" >乐分享</a>
+								</li>
+							</ul>
+							<div>
+								<p>
+									共有
+									<span id="comment_rscnt">61</span>
+									条记录
+								</p>
+							</div>
+						</dt>
+						<dd id="commentContent" class="commentContent">
+							<div id="ECS_COMMENT">
+								<div class="boxCenterList clearfix">
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">张***青</font>
+											<font class="f3">( 2017-05-23 16:22:31 )</font>
+											<br />
+											<p>
+												因为戒圈大了换了一次戒圈，刻字什么的都在，全程也很安全放心，钻挺闪的，没有去验但是相信不会是假的，对于售后很满意。
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">杨***诣</font>
+											<font class="f3">( 2017-05-06 19:43:23 )</font>
+											<br />
+											<p>
+												我以为马来的朋友推荐我过来定的，戒指很满意，必须好评.
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">何***崭</font>
+											<font class="f3">( 2017-05-02 16:32:42 )</font>
+											<br />
+											<p>
+												去店里看的，感觉店里的戒指比图上看的要好看，你们的修图师不行哟，哈哈
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">陈***岑</font>
+											<font class="f3">( 2017-04-06 13:40:27 )</font>
+											<br />
+											<p>
+												收到货了，很好看哦，比我预期还好，客服也很细心的解释，很不错
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">李***引</font>
+											<font class="f3">( 2017-03-17 15:42:08 )</font>
+											<br />
+											<p>
+												满意，特别棒
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">T***n</font>
+											<font class="f3">( 2017-02-27 15:13:23 )</font>
+											<br />
+											<p>
+												号数推荐的正好，很闪很漂亮，而且在生日前就寄到了，谢谢啦，很满意哦
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">赵***粲</font>
+											<font class="f3">( 2017-02-08 15:31:32 )</font>
+											<br />
+											<p>
+												棒棒的。超级喜欢，价格合理，款式精致大方。
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">A***)</font>
+											<font class="f3">( 2017-01-18 17:51:43 )</font>
+											<br />
+											<p>
+												宝贝不错，送女友生日，看着很喜欢，灯光下闪闪发亮，很值 ，服务也很好，赞个。
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">李***杳</font>
+											<font class="f3">( 2016-12-28 16:27:33 )</font>
+											<br />
+											<p>
+												收到戒指去鉴定了，跟证书一样宽心了，戒指很漂亮。
+											</p>
+										</li>
+									</ul>
+									<ul class="comments">
+										<li class="word">
+											<font class="f2">陈***炳</font>
+											<font class="f3">( 2016-12-06 17:44:45 )</font>
+											<br />
+											<p>
+												惊艳，值得购买，客服很贴心，顺丰也很快，很满意
+											</p>
+										</li>
+									</ul>
+									<div id="pagebar" class="f_r">
+										<form>
+											<div id="pager">
+												总计 61 个记录，共 7 页。
+												<span>
+													<a href="#">第一页</a>
+													<a href="#">上一页</a>
+													<a href="#">下一页</a>
+													<a href="#">最末页</a>
+												</span>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</dd>
+					</dl>
+				</dd>
+			</div>
+		</section>
+<!-------------------------------insurance-------------------------------------->
+		<section id="insurance">
+
+		</section>
+		<!-------------------------------friendlink-------------------------------------->
+		<section id="footer">	
+			<div class="friendlink">
+				<div class="guide">
+					<ul>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+						<li>
+							<a href="#">诚聘贤才</a>
+						</li>
+						<li>
+							<a href="#">权威认证</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">用户指南</a>
+						</li>
+						<li>
+							<a href="#">注册用户</a>
+						</li>
+						<li>
+							<a href="#">会员权益</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">关于购买</a>
+						</li>
+						<li>
+							<a href="#">购买流程</a>
+						</li>
+						<li>
+							<a href="#">支付方式</a>
+						</li>
+						<li>
+							<a href="#">支付帮助</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">关于配送</a>
+						</li>
+						<li>
+							<a href="#">配送方式</a>
+						</li>
+						<li>
+							<a href="#">配送流程</a>
+						</li>
+						<li>
+							<a href="#">配送问题</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">售后服务</a>
+						</li>
+						<li>
+							<a href="#">退货流程</a>
+						</li>
+						<li>
+							<a href="#">服务细节</a>
+						</li>
+						<li>
+							<a href="#">售后保障</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">客服中心</a>
+						</li>
+						<li>
+							<a href="#">订单查询</a>
+						</li>
+						<li>
+							<a href="#">联系客服</a>
+						</li>
+						<li>
+							<a href="#">建议留言</a>
+						</li>
+					</ul>
+					<div class="guide-r"><img src="../images/btel.jpg"/></div>
+				</div>			
+				<div class="friend">
+					<p class="p1">友情链接</p>
+					<div class="link-t">
+						<a href="#">友链QQ2558957632</a><span>|</span>
+						<a href="#">手表网</a><span>|</span>
+						<a href="#">缅甸翡翠</a><span>|</span>
+						<a href="#">加盟创业</a><span>|</span>
+						<a href="#">DR钻戒</a><span>|</span>
+						<a href="#">结婚礼物</a><span>|</span>
+						<a href="#">七丽时尚网</a><span>|</span>
+						<a href="#">爱藏网</a><span>|</span>
+						<a href="#">看准网</a><span>|</span>
+						<a href="#">下载之家官网</a><span>|</span>
+						<a href="#">童鞋会</a><span>|</span>
+						<a href="#">深圳地图</a><span>|</span>
+						<a href="#">百山搜索</a>
+						
+					</div>
+					<p class="p2">
+						<a href="#">事业单位招聘网</a><span>|</span>
+						<a href="#">2018分类信息网</a><span>|</span>
+						<a href="#">海外代购</a><span>|</span>
+						<a href="#">百科</a><span>|</span>
+						<a href="#">阳光网</a><span>|</span>
+						<a href="#">海淘</a><span>|</span>
+						<a href="#">服装厂批发</a><span>|</span>
+						<a href="#">发型设计</a><span>|</span>
+						<a href="#">妆点时尚</a><span>|</span>
+						<a href="#">婚纱摄影</a><span>|</span>
+						<a href="#">家居问答</a><span>|</span>
+						<a href="#">舒适家居</a><span>|</span>
+						<a href="#">搜狐焦点家居</a><span>|</span>
+						<a href="#">世界名表</a><span>|</span>
+						<a href="#">创意家居</a><span>|</span>
+						<a href="#">英语四级培训</a><span>|</span>
+						<a href="#">百分网</a><span>|</span>
+						<a href="#">找工作</a><span>|</span>
+						<a href="#">服务众包需求</a><span>|</span>
+						<a href="#">上海天气预报</a><span>|</span>
+						<a href="#">火车票查询</a><span>|</span>
+						<a href="#">微百科</a><span>|</span>
+						<a href="#">腕表</a><span>|</span>
+						<a href="#">北京分类信息</a><span>|</span>
+						<a href="#">定制家具</a><span>|</span>
+						<a href="#">世界之最大全</a><span>|</span>
+						<a href="#">购物攻略</a><span>|</span>
+						<a href="#">马可波罗网</a><span>|</span>
+						<a href="#">b2b平台</a><span>|</span>
+						<a href="#">村安商城</a><span>|</span>
+						<a href="#">女装</a><span>|</span>
+						<a href="#">巴陵时尚网</a><span>|</span>
+						<a href="#">手工编织</a><span>|</span>
+						<a href="#">汽车票</a><span>|</span>
+						<a href="#">车站大全</a><span>|</span>
+						<a href="#">波奇网</a><span>|</span>
+						<a href="#">日语</a><span>|</span>
+					</p>
+					<div class="link-b"></div>
+				</div>
+				<div class="footer-b">
+					<p>每一枚乐维斯定制均需实名制：以我之名，冠你指间；一生相伴，一世相随！</p>
+					<p>Copyright 2008-2016 Lovenus.cn All Rights Reserved 深圳市乐维斯钻戒有限公司 版权所有 </p>
+					<p>经营许可证编号：<a href="#">粤ICP备12085622号-1</a> 全国咨询热线：400-8030-520 </p>
+					<p>中国互联网违法信息举报中心 | 中国公安网络110报警服务 | 本网站接受中国珠宝玉石首饰行业协会的监督 | <a href="#">网站地图</a></p>
+				</div>
+			</div>	
+		</section>
+				<!-------------------------------------------------------consult----------------------------------------------->
+		<section id="consult" style="position:fixed;top:16%;right:20px;cursor:pointer;z-index: 999;">
+			<img src="../images/kf_float.gif" />
+		</section>
+		<!-----------------------------------------------------service------------------------------------------------>
+		<section id="service">
+			<div class="t">
+				<div class="t-c">
+					<img src="../images/kf_9746_ISME9754_T2D_rose.jpg" />					
+				</div>
+				<div class="t-a">
+					<span class="sp1">lily</span>
+					<span class="sp2"></span>
+				</div>
+				<div class="quxiao" id="quxiao">
+					
+				</div>
+				<div class="fangda">
+					
+				</div>
+				<div class="suofang">
+					
+				</div>
+			</div>
+			<div class="l">
+				<div class="l-body">
+					<div class="l-container">
+						<div class="l-window">
+							<div class="l-window-history">
+								
+							</div>
+							<div class="gongju">
+								<div class="gongju-face">
+									
+								</div>
+								<div class="gongju-image">
+									
+								</div>
+								<div class="gongju-file">
+									
+								</div>
+								<div class="gongju-history">
+									
+								</div>
+								<div class="gongju-evaluate">
+									
+								</div>
+								<div class="gongju-exp">
+									更多
+								</div>
+							</div>
+							<div class="shuru">
+								<textarea placeholder="我想问..."></textarea>
+							</div>
+							<div class="fasong">
+								<div class="xiala">
+									▼
+								</div>
+								<div class="fa">
+									发送
+								</div>
+								<span class="jieshu">
+									结束会话
+								</span>
+								<span class="xiaoneng">
+									小能科技
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="r">
+				<div class="r-c">
+					<div class="r-c-r">
+						常见问题
+					</div>
+					<div class="r-c-l">
+						关于企业
+					</div>
+				</div>
+				<div class="r-b">
+					乐维斯，一生只送一人！它的每一枚均需实名定制，寓意：以我之名，冠你指间，一生相伴，一世相随！
+				</div>
+			</div>
+		</section>
+		<!-------------------------------------------------------topcontrol------------------------------------------->
+		<section id="top">
+
+		</section>
+		<!------------------------------------------------------------popu------------------------------------------------------->
+		<div id="popu">
+			<div class="quxiao">
+				<img src="../images/quxiao.png" />
+			</div>
+			<div class="service">
+				<img src="../images/zixun.png" />
+			</div>
+			<div class="shaohou">
+				<img src="../images/shaohou.png" />
+			</div>
+		</div>
+	</body>
+</html>

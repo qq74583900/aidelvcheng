@@ -1,0 +1,118 @@
+/*===========================================banner=============================================*/
+#banner{
+	height:677px;
+	background:url(../../images/love-images/lv_1.jpg) no-repeat;
+	background-position: center; 
+}
+/*===================================================id================================================*/
+.a2{
+	height:450px;
+	background:url(../../images/love-images/lv_2.jpg) no-repeat;
+	background-position: center;
+}
+.w1000{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+	font-size: 12px;
+	color:#7f7f7f;
+	text-align: left;
+}
+.a2 a:first-child{
+	width:168px;
+	height:166px;
+	position: absolute;
+	left:305px;
+	top:0;
+	display: block;
+	overflow: hidden;
+}
+.a2 a:last-child{
+	width:168px;
+	height:166px;
+	position: absolute;
+	left:530px;
+	top:0;
+	display: block;
+	overflow: hidden;
+}
+/*==========================================================a3====================================================*/
+.a3{
+	height:252px;
+	background:url(../../images/love-images/lv_3.jpg) no-repeat;
+	background-position: center;
+}
+.a3 a{
+	width:915px;
+	height:280px;
+	position: absolute;
+	left:44px;
+	top:-60px;
+	display: block;
+	overflow: hidden;
+}
+/*=========================================================a4==========================================================*/
+.a4{
+	height:464px;
+	background:url(../../images/love-images/lv_4.jpg) no-repeat;
+	background-position: center;
+}
+.a4 a:first-child{
+	width:492px;
+	height:400px;
+	position: absolute;
+	top:36px;
+	overflow: hidden;
+}
+.a4 a:first-child span{
+	transition: .4s all;
+	position: absolute;
+	left:42px;
+	top:300px;
+}
+.a4 span img{
+	width:450px;
+}
+.a4 a:first-child:hover span{
+	top:250px;
+}
+
+.a4 a:last-child{
+	width:461px;
+	height:400px;
+	position: absolute;
+	right:32px;
+	top:36px;
+	overflow: hidden;
+}
+.a4 a:last-child span{
+	transition: 0.4s all;
+	left:0;
+	top:311px;
+	position: absolute;
+} 
+.a4 a:last-child:hover span{
+	top:238px;
+}
+/*=========================================================a5=====================================================*/
+.a5{
+	height:480px;
+	background:url(../../images/love-images/lv_5.jpg) no-repeat;
+	background-position: center;
+}
+.a5 a:first-child{
+	height:400px;
+	width:450px;
+	position: absolute;
+	left:44px;
+	top:55px;
+}
+
+
+
+
+
+
+
+

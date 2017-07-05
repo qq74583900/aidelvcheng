@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/shoppingcar.css" rel="stylesheet" type="text/css">
+		<link href="css/gonggong.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!---------------------------------------------nav--------------------------------------------->
+		<nav>
+			<div class="w">
+				<div class="l">
+					<ul>
+						<li><a href="demglu.html">登录</a><span>|</span><a href="zhuce.html">注册</a></li>
+						<li>
+							<a href="#">合作登录:</a>
+							<a href="#"><img src="../images/qq.jpg"/></a>
+							<a href="#"><img src="../images/sinawb.jpg"/></a>
+							<a href="#"><img src="../images/alipay.jpg"/></a> 
+						</li>						
+					</ul>
+				</div>
+				<div class="r">
+					<ul>
+						<li><img src="../images/cart.jpg"/><a href="shoppingcar.html">购物车</a>[<span>0</span>]<b>|</b> </li>
+						<li  class="a-a">
+							<a href="demglu.html">我的账户</a>
+							<ul  class="app">
+								<li><a href="#">收藏夹</a></li>
+								<li><a href="#">订单管理</a></li>
+								<li><a href="#">求婚专属网</a></li>
+							</ul>
+						</li>
+						<li><img src="../images/tel.jpg"/><a href="#">400-8030-520</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!---------------------------------------header--------------------------------------------->
+		<header>
+			<div class="w">
+				<div class="logo">
+					<a href="#"><img src="../images/logo.gif"/></a>
+					<a href="#"><img src="../images/logo_line.jpg" /></a>
+					<a href="#"><img src="../images/logo_txt.gif" /></a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="../index.html"><img src="../images/nav_1.jpg" />首页</a><img src="../images/nav_2.jpg"/></li>
+						<li class="ej" id="ej">
+							<a href="#">求婚钻戒</a><img src="../images/nav_2.jpg"/>							
+						</li>
+						<li><a href="#">真爱服务</a><img src="../images/nav_2.jpg"/></li>
+						<li><a href="#">乐维斯式爱情</a><img src="../images/nav_2.jpg"/></li>
+						<li><a href="#">乐维斯世界</a><img src="../images/nav_2.jpg"/></li>
+					</ul>
+					<img class="img1" src="../images/1495461068593561552.gif" />
+				</div>					
+			</div>
+			<div class="erji" id="erji">
+				<div class="erjiw">
+					<div>
+						<h3><a href="#">求婚戒指</a></h3>
+						<p><a href="#">查看全部</a></p>
+						<a href="#"><img src="../images/navjz.png"/></a>
+					</div>
+					<ul>
+						<li><a href="#">高贵淑女型</a></li>
+						<li><a href="list.html">时尚个性型</a></li>
+						<li><a href="#">简约大方型</a></li>
+						<li><a href="#">调皮可爱型</a></li>
+						<li><a href="#">求婚&nbsp;男戒</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!------------------------------------------------shoppping-------------------------------------------->
+		<section id="shopping">
+			<div class="cart">
+				<p class="step1 cur">
+					<span>我的购物车</span>
+				</p>
+				<p class="step2">
+					<span>填写真爱协议</span>
+				</p>
+				<p class="step3">
+					<span>填写订单协议</span>
+				</p>
+				<p class="step4">
+					<span>提交订单</span>
+				</p>
+			</div>
+			<div class="cart_row">
+				<form>
+					<table width="100%" cellspacing="1" cellpadding="5" border="1" bgcolor="#ccc">
+						<tbody>
+							<tr>
+								<th>乐钻戒</th>
+								<th>款式号</th>
+								<th>属性/th>
+								<th>手寸/尺寸</th>
+								<th>刻字</th>
+								<th>乐维斯价</th>
+								<th>购买数量</th>
+								<th>小计</th>
+								<th>操作</th>
+							</tr>
+							<tr>
+								<td colspan="9" height="40" bgcolor="#fff">
+									<span>
+										共
+										<b></b>
+										件商品
+									</span>
+									<a class="f_r a1" href="#">
+										<img src="../images/detail-images/folder.jpg" />
+										打开收藏夹
+									</a>
+									<a class="f_r a2" href="#">
+										<img src="../images/detail-images/x.jpg" />
+										清空购物车
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+			<div class="choose_item">
+				<div class="cart_open">
+					
+				</div>
+				<a class="green_tit" href="#">
+					乐维斯，真爱不打折，求婚有惊喜，我要更多浪漫惊喜》
+				</a>
+			</div>
+			<div class="count_money">
+				<table width:"100%" cellpadding="10" cellspacing="0">
+					<tbody>
+						<tr>
+							<td valign="middle" align="right">
+								订单总额：
+								<span class="should_pay">¥</span>
+								<span id="orderPrice" class="should_pay">0</span>
+							</td>
+						</tr>
+					</tbody>					
+				</table>
+			</div>
+			<div class="cart_btn">
+				<a href="#">
+					<img src="../images/detail-images/jixu.jpg"/>
+				</a>
+				<a href="#" class="jiesuan">
+					去结算
+				</a>
+			</div>
+			<div class="cart_total_point">
+				本次消费可获得
+				<b id="totalPoint">0</b>
+				积分
+			</div>
+			<div class="llgsp" id="history_div">
+				<b>浏览过的商品</b>
+				<ul id="history_list">
+					<li>
+						<a href="#" class="picborder2">
+							<img src="../images/detail-images/1016578_thumb_G_1451873937004.jpg" />
+						</a>
+						<p>
+							<a href="#">爱·唯一</a>
+							<br/>
+							<strong>￥ 11099元</strong>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-------------------------------insurance-------------------------------------->
+		<section id="insurance">
+
+		</section>
+		<!-------------------------------friendlink-------------------------------------->
+		<section id="footer">	
+			<div class="friendlink">
+				<div class="guide">
+					<ul>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+						<li>
+							<a href="#">诚聘贤才</a>
+						</li>
+						<li>
+							<a href="#">权威认证</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">用户指南</a>
+						</li>
+						<li>
+							<a href="#">注册用户</a>
+						</li>
+						<li>
+							<a href="#">会员权益</a>
+						</li>
+						<li>
+							<a href="#">常见问题</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">关于购买</a>
+						</li>
+						<li>
+							<a href="#">购买流程</a>
+						</li>
+						<li>
+							<a href="#">支付方式</a>
+						</li>
+						<li>
+							<a href="#">支付帮助</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">关于配送</a>
+						</li>
+						<li>
+							<a href="#">配送方式</a>
+						</li>
+						<li>
+							<a href="#">配送流程</a>
+						</li>
+						<li>
+							<a href="#">配送问题</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">售后服务</a>
+						</li>
+						<li>
+							<a href="#">退货流程</a>
+						</li>
+						<li>
+							<a href="#">服务细节</a>
+						</li>
+						<li>
+							<a href="#">售后保障</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">客服中心</a>
+						</li>
+						<li>
+							<a href="#">订单查询</a>
+						</li>
+						<li>
+							<a href="#">联系客服</a>
+						</li>
+						<li>
+							<a href="#">建议留言</a>
+						</li>
+					</ul>
+					<div class="guide-r"><img src="../images/btel.jpg"/></div>
+				</div>			
+				<div class="friend">
+					<p class="p1">友情链接</p>
+					<div class="link-t">
+						<a href="#">友链QQ2558957632</a><span>|</span>
+						<a href="#">手表网</a><span>|</span>
+						<a href="#">缅甸翡翠</a><span>|</span>
+						<a href="#">加盟创业</a><span>|</span>
+						<a href="#">DR钻戒</a><span>|</span>
+						<a href="#">结婚礼物</a><span>|</span>
+						<a href="#">七丽时尚网</a><span>|</span>
+						<a href="#">爱藏网</a><span>|</span>
+						<a href="#">看准网</a><span>|</span>
+						<a href="#">下载之家官网</a><span>|</span>
+						<a href="#">童鞋会</a><span>|</span>
+						<a href="#">深圳地图</a><span>|</span>
+						<a href="#">百山搜索</a>
+						
+					</div>
+					<p class="p2">
+						<a href="#">事业单位招聘网</a><span>|</span>
+						<a href="#">2018分类信息网</a><span>|</span>
+						<a href="#">海外代购</a><span>|</span>
+						<a href="#">百科</a><span>|</span>
+						<a href="#">阳光网</a><span>|</span>
+						<a href="#">海淘</a><span>|</span>
+						<a href="#">服装厂批发</a><span>|</span>
+						<a href="#">发型设计</a><span>|</span>
+						<a href="#">妆点时尚</a><span>|</span>
+						<a href="#">婚纱摄影</a><span>|</span>
+						<a href="#">家居问答</a><span>|</span>
+						<a href="#">舒适家居</a><span>|</span>
+						<a href="#">搜狐焦点家居</a><span>|</span>
+						<a href="#">世界名表</a><span>|</span>
+						<a href="#">创意家居</a><span>|</span>
+						<a href="#">英语四级培训</a><span>|</span>
+						<a href="#">百分网</a><span>|</span>
+						<a href="#">找工作</a><span>|</span>
+						<a href="#">服务众包需求</a><span>|</span>
+						<a href="#">上海天气预报</a><span>|</span>
+						<a href="#">火车票查询</a><span>|</span>
+						<a href="#">微百科</a><span>|</span>
+						<a href="#">腕表</a><span>|</span>
+						<a href="#">北京分类信息</a><span>|</span>
+						<a href="#">定制家具</a><span>|</span>
+						<a href="#">世界之最大全</a><span>|</span>
+						<a href="#">购物攻略</a><span>|</span>
+						<a href="#">马可波罗网</a><span>|</span>
+						<a href="#">b2b平台</a><span>|</span>
+						<a href="#">村安商城</a><span>|</span>
+						<a href="#">女装</a><span>|</span>
+						<a href="#">巴陵时尚网</a><span>|</span>
+						<a href="#">手工编织</a><span>|</span>
+						<a href="#">汽车票</a><span>|</span>
+						<a href="#">车站大全</a><span>|</span>
+						<a href="#">波奇网</a><span>|</span>
+						<a href="#">日语</a><span>|</span>
+					</p>
+					<div class="link-b"></div>
+				</div>
+				<div class="footer-b">
+					<p>每一枚乐维斯定制均需实名制：以我之名，冠你指间；一生相伴，一世相随！</p>
+					<p>Copyright 2008-2016 Lovenus.cn All Rights Reserved 深圳市乐维斯钻戒有限公司 版权所有 </p>
+					<p>经营许可证编号：<a href="#">粤ICP备12085622号-1</a> 全国咨询热线：400-8030-520 </p>
+					<p>中国互联网违法信息举报中心 | 中国公安网络110报警服务 | 本网站接受中国珠宝玉石首饰行业协会的监督 | <a href="#">网站地图</a></p>
+				</div>
+			</div>	
+		</section>
+				<!-------------------------------------------------------consult----------------------------------------------->
+		<section id="consult" style="position:fixed;top:16%;right:20px;cursor:pointer;z-index: 999;">
+			<img src="../images/kf_float.gif" />
+		</section>
+		<!-----------------------------------------------------service------------------------------------------------>
+		<section id="service">
+			<div class="t">
+				<div class="t-c">
+					<img src="../images/kf_9746_ISME9754_T2D_rose.jpg" />					
+				</div>
+				<div class="t-a">
+					<span class="sp1">lily</span>
+					<span class="sp2"></span>
+				</div>
+				<div class="quxiao" id="quxiao">
+					
+				</div>
+				<div class="fangda">
+					
+				</div>
+				<div class="suofang">
+					
+				</div>
+			</div>
+			<div class="l">
+				<div class="l-body">
+					<div class="l-container">
+						<div class="l-window">
+							<div class="l-window-history">
+								
+							</div>
+							<div class="gongju">
+								<div class="gongju-face">
+									
+								</div>
+								<div class="gongju-image">
+									
+								</div>
+								<div class="gongju-file">
+									
+								</div>
+								<div class="gongju-history">
+									
+								</div>
+								<div class="gongju-evaluate">
+									
+								</div>
+								<div class="gongju-exp">
+									更多
+								</div>
+							</div>
+							<div class="shuru">
+								<textarea placeholder="我想问..."></textarea>
+							</div>
+							<div class="fasong">
+								<div class="xiala">
+									▼
+								</div>
+								<div class="fa">
+									发送
+								</div>
+								<span class="jieshu">
+									结束会话
+								</span>
+								<span class="xiaoneng">
+									小能科技
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="r">
+				<div class="r-c">
+					<div class="r-c-r">
+						常见问题
+					</div>
+					<div class="r-c-l">
+						关于企业
+					</div>
+				</div>
+				<div class="r-b">
+					乐维斯，一生只送一人！它的每一枚均需实名定制，寓意：以我之名，冠你指间，一生相伴，一世相随！
+				</div>
+			</div>
+		</section>
+		<!-------------------------------------------------------topcontrol------------------------------------------->
+		<section id="top">
+			
+		</section>
+		<!------------------------------------------------------------popu------------------------------------------------------->
+		<div id="popu">
+			<div class="quxiao">
+				<img src="../images/quxiao.png" />
+			</div>
+			<div class="service">
+				<img src="../images/zixun.png" />
+			</div>
+			<div class="shaohou">
+				<img src="../images/shaohou.png" />
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+<script type="text/javascript" src="js/zzsc1.js"></script>
